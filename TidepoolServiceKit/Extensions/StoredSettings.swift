@@ -280,6 +280,8 @@ extension StoredSettings: IdentifiableDatum {
             modelType = .rapidAdult
         case .rapidChild:
             modelType = .rapidChild
+        case .rapidChildExtDia:
+            modelType = .rapidChildExtDia
         default:
             modelType = .other
         }
